@@ -1,0 +1,12 @@
+body{
+    padding: 50 250 0 250;
+    margin: 50 250 0 250;
+}
+.header{
+    padding-left: 200px;
+    display: grid;
+}
+img{
+    max-width: 50px;
+    min-height: auto;
+}

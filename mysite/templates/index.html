@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}index{% endblock %}
+{% block content %}
+<h1>The Person in this  </h1>
+{% for person in all_person %}
+    <div class = "col">
+        <h3> <a href="{% url 'person' person.id %}"> {{person.name}}</a></h3>
+        <p>{{person.age}}</p>
+    </div>
+    
+{% endfor %}
+    
+{% endblock  %}
